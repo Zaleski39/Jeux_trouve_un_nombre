@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Ma Formation JavaScript</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="Une description de la page..." />
+		<meta name="author" content="Alexis RIGOULOT" />
+		<meta name="copyright" content="© CC BY-NC-SA 4.0" />
+        <link rel="stylesheet" href="assets/CSS/style.css">
+        <script defer src="assets/js/coursjs.js" ></script>
+
+	</head>
+	<body>
+
+        <h1>Deviner un nombre</h1>
+
+        <p>Nous avons généré un nombre aléatoire entre 1 et 100, 
+            tentez de le deviner en 10 tours maximum. 
+            Pour chaque tentative, nous vous dirons 
+            si votre estimation est trop ou pas assez élevée.</p>
+    
+        <div class="form">
+          <label for="guessField">Entrez votre proposition: </label>
+          <input type="text" id="guessField" class="guessField">
+          <input type="submit" value="Essayer" class="guessSubmit">
+        </div>
+    
+        <div class="resultParas">
+          <p class="guesses"></p>
+          <p class="lastResult"></p>
+          <p class="lowOrHi"></p>
+        </div>
+
+
+        <button>Clicker moi</button>
+
+
+
+	</body>
+
+
+
+
+</html>
